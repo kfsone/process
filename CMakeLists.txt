@@ -1,0 +1,24 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.16)
+
+SET(CMAKE_CXX_STANDARD 17)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+PROJECT(process LANGUAGES CXX)
+
+ADD_EXECUTABLE(
+	sleeper
+
+	sleeper.cpp
+)
+
+ADD_EXECUTABLE(
+	middle
+
+	middle.cpp
+)
+
+ADD_EXECUTABLE(
+	parent
+
+	parent.cpp
+)
